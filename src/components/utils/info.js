@@ -60,7 +60,7 @@ const info = {
     {
       "label": "about",
       "about": "To know about me",
-      "value": "I am a Software Engineer based in Noida, India, currently working at Plutos One. My expertise lies in developing Web Applications and Cross-Platform Applications that are both functional and user-centric, with a focus on delivering intuitive and aesthetically pleasing solutions. <br/>I am passionate about simplifying complex challenges through innovative design and technology, ensuring that the end product not only meets user needs but also enhances their experience."
+      "value": "I’m a Frontend Engineer based in Noida, India, currently working at Plutos ONE. I specialize in building scalable, high-performance web applications and enterprise platforms using React, Next.js, TypeScript, and modern frontend technologies. <br/>I enjoy transforming complex business requirements into intuitive, responsive, and user-centric experiences. From fintech dashboards and B2B platforms to SaaS products and real-time applications, I focus on creating interfaces that are not only visually polished but also reliable, maintainable, and built for scale."
     },
     {
       "label": "skills",

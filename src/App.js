@@ -23,18 +23,12 @@ function InnerApp({ appRef }) {
 
   // Scroll Height...
   const [scrollPositionValue, setScrollPositionValue] = useState({ current: 0, prev: 0 });
-  const [scrollPosition, setScrollPosition] = useState({ top: true, bottom: false });
   useEffect(() => {
     const appHomeId = document.getElementById("home");
     if (appRef.current) {
       const handleScroll = () => {
         const scrollTop = appHomeId.scrollTop;
         setScrollPositionValue({ current: scrollTop, prev: scrollPositionValue.current });
-        if (scrollPositionValue.current > scrollPositionValue.prev) {
-          setScrollPosition({ top: false, bottom: true })
-        } else {
-          setScrollPosition({ top: true, bottom: false })
-        }
       };
       appHomeId.addEventListener("scroll", handleScroll);
       return () => {

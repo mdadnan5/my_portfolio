@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { SiDailydotdev } from "react-icons/si";
-import { BsMedium } from "react-icons/bs";
 import Resume from "../docs/Adnan_Resume.pdf";
 
 const SideNavbar = () => {

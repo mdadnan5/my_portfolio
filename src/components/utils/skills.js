@@ -1,16 +1,9 @@
-import { SiExpress } from "react-icons/si";
-import { FaBootstrap, FaRegFileCode } from "react-icons/fa6";
-import { DiRedis } from "react-icons/di";
+import { FaBootstrap } from "react-icons/fa6";
 import { TbGitMerge } from "react-icons/tb";
 import { SiRedux } from "react-icons/si";
-import { FaJenkins } from "react-icons/fa";
-import { PiFileCppBold } from "react-icons/pi";
-import { RiFlutterFill, RiNextjsFill, RiJavaLine, RiCodeSSlashFill } from "react-icons/ri";
-import { SiJavascript, SiTypescript, SiMui, SiCanva, SiNestjs, SiDart } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
-import { FcAddDatabase } from "react-icons/fc";
+import { RiNextjsFill, RiJavaLine, RiCodeSSlashFill } from "react-icons/ri";
+import { SiJavascript, SiTypescript, SiMui, SiCanva } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
-import { SiJfrogpipelines } from "react-icons/si";
 import { VscTools } from "react-icons/vsc";
 import { RiFlowerLine } from "react-icons/ri";
 
