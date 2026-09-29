@@ -5,53 +5,32 @@ const Portfolio = () => {
 
     const projects = useMemo(() => [
         {
-            title: "Test Taker",
+            title: "Alvi Girls Degree College",
             category: "Web development",
-            img: "./images/ui/projects/testaker.jpg",
-            alt: "Test Taker",
-            link: "https://testtaker.netlify.app/"
+            img: "./images/ui/projects/alvigdc.png",
+            alt: "Alvi Girls Degree College",
+            link: "https://alvi-girls-degree-college.vercel.app/"
         },
         {
-            title: "Dark Store",
+            title: "Civic Data Space",
             category: "Web development",
-            img: "./images/ui/projects/darkstore.png",
-            alt: "Dark Store",
-            link: "https://dashboard-darkstore.netlify.app/"
+            img: "./images/ui/projects/civic-data.png",
+            alt: "Civic Data Space",
+            link: "https://civic-data-space-five.vercel.app/"
         },
         {
-            title: "Voice Notes",
+            title: "Dashboard Filtering System",
             category: "Web development",
-            img: "./images/ui/projects/voice-notes.png",
-            alt: "Voice Notes",
-            link: "https://shortmusic.netlify.app/"
+            img: "./images/ui/projects/dashboard.png",
+            alt: "Dashboard Filtering System",
+            link: "https://dashboard-filtering-system.vercel.app/"
         },
         {
-            title: "Chat App",
-            category: "Web Development",
-            img: "./images/ui/projects/chatapp.png",
-            alt: "Chat App",
-            link: "https://github.com/buggiebug/chat-app/"
-        },
-        {
-            title: "SCSPL",
-            category: "Web design",
-            img: "./images/ui/projects/scspl.png",
-            alt: "SCSPL",
-            link: "https://collaborative-circle-771792.framer.app/"
-        },
-        {
-            title: "Login Signup",
+            title: "Movie Search App",
             category: "Web development",
-            img: "./images/ui/projects/loginSignup.png",
-            alt: "Login Signup",
-            link: "https://github.com/buggiebug/login-signup-page/"
-        },
-        {
-            title: "Expense Manager",
-            category: "Applications",
-            img: "./images/ui/projects/expense_tracker.jpg",
-            alt: "Expense Manager",
-            link: "https://github.com/buggiebug/Expense-Tracker/"
+            img: "./images/ui/projects/movie-search.png",
+            alt: "Movie Search App",
+            link: "https://movie-search-app-beta-ten.vercel.app/"
         },
         {
             title: "Weather Application",

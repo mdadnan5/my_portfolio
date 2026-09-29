@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Resume from "../docs/Adnan_Resume.pdf";
+import Resume from "../docs/Mohammad_Adnan_Frontend_Developer.pdf";
 
 const SideNavbar = () => {
 
@@ -9,7 +9,6 @@ const SideNavbar = () => {
     const handleClick = () => {
         setViewMoreInfoState(!viewMoreInfoState)
     }
-
 
     useEffect(() => {
         const handleWidth = () => {
@@ -26,7 +25,7 @@ const SideNavbar = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = Resume;
-    link.download = "Adnan_resume.pdf";
+    link.download = "Mohammad_Adnan_Frontend_Developer.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -129,31 +128,6 @@ const SideNavbar = () => {
                                 <ion-icon name="logo-whatsapp"></ion-icon>
                             </Link>
                         </li>
-                        {/* <li className="social-item">
-                            <Link to={"https://app.daily.dev/buggie"} className="social-link" target='_blank' title='Logo daily.dev'>
-                                <SiDailydotdev />
-                            </Link>
-                        </li>
-                        <li className="social-item">
-                            <Link to={"https://x.com/yehBuggie"} className="social-link" target='_blank'>
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </Link>
-                        </li>
-                        <li className="social-item">
-                            <Link to={"https://www.instagram.com/shubuumishra"} className="social-link" target='_blank'>
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </Link>
-                        </li>
-                        <li className="social-item">
-                            <Link to={"https://www.facebook.com/profile.php?id=100019119737246"} className="social-link" target='_blank'>
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </Link>
-                        </li>
-                        <li className="social-item">
-                            <Link to={"https://medium.com/@buggie9120"} className="social-link" target='_blank' title='Logo Medium'>
-                                <BsMedium />
-                            </Link>
-                        </li> */}
                     </ul>
                     <button onClick={downloadResume} className="resume-download-btn">
                         <ion-icon name="cloud-download-outline"></ion-icon>

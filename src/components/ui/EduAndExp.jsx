@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import Resume from "../docs/Adnan_Resume.pdf";
+import Resume from "../docs/Mohammad_Adnan_Frontend_Developer.pdf";
 import { Link } from "react-router-dom";
 import skillsData from "../utils/skills";
 
@@ -63,7 +63,7 @@ const EduAndExp = ({ experience }) => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = Resume;
-    link.download = "Adnan_resume.pdf";
+    link.download = "Mohammad_Adnan_Frontend_Developer.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
