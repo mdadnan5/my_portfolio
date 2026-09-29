@@ -81,7 +81,7 @@ const info = {
         },
         {
           "company": "Triline Infotech Pvt. Ltd.",
-          "position": "Frontend Developer",
+          "position": "Software Engineer",
           "exp": "july, 2021 – Aug, 2022",
           "link": "https://trilineinfotech.com/",
           "diff": calculateDate(2021, 7, 1, 2022, 8, 21)
