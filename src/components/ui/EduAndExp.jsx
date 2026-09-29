@@ -35,12 +35,10 @@ const EduAndExp = ({ experience }) => {
       (entries) => {
         entries.forEach((entry) => {
           const skillId = entry.target.getAttribute("data-id");
-          if (entry.isIntersecting) {
-            setVisibleSkills((prevVisibleSkills) => ({
-              ...prevVisibleSkills,
-              [skillId]: true,
-            }));
-          }
+          setVisibleSkills((prev) => ({
+            ...prev,
+            [skillId]: entry.isIntersecting,
+          }));
         });
       },
       { threshold: 0.5 }

@@ -6,7 +6,7 @@ const Portfolio = () => {
     const projects = useMemo(() => [
         {
             title: "Alvi Girls Degree College",
-            category: "Web development",
+            category: "Web Design",
             img: "./images/ui/projects/alvigdc.png",
             alt: "Alvi Girls Degree College",
             link: "https://alvi-girls-degree-college.vercel.app/"
@@ -27,21 +27,21 @@ const Portfolio = () => {
         },
         {
             title: "Movie Search App",
-            category: "Web development",
+            category: "Applications",
             img: "./images/ui/projects/movie-search.png",
             alt: "Movie Search App",
             link: "https://movie-search-app-beta-ten.vercel.app/"
         },
         {
             title: "Weather Application",
-            category: "Web development",
+            category: "Applications",
             img: "./images/ui/projects/weather.png",
             alt: "Weather Application",
             link: "https://mdadnan5.github.io/weather-application"
         },
         {
             title: "Digital & Analog Clock",
-            category: "Web development",
+            category: "Applications",
             img: "./images/ui/projects/clock.png",
             alt: "Digital & Analog Clock",
             link: "https://mdadnan5.github.io/Analog-and-Digital-Clock/"
