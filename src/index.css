@@ -40,6 +40,264 @@ body {
   scroll-behavior: smooth;
 }
 
+/* ---- Light Theme ---- */
+[data-theme="light"] {
+  background-color: #f0f0f0 !important;
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer .sidebar,
+[data-theme="light"] .mainContainer article {
+  background: #ffffff !important;
+  border-color: #ddd !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+[data-theme="light"] .mainContainer .navbar {
+  background: rgba(255,255,255,0.85) !important;
+  border-color: #ddd !important;
+  backdrop-filter: blur(12px);
+}
+
+[data-theme="light"] .mainContainer .navbar-link {
+  color: #333 !important;
+}
+
+[data-theme="light"] .mainContainer .navbar-link.active {
+  color: hsl(45, 100%, 40%) !important;
+}
+
+[data-theme="light"] .mainContainer .h2,
+[data-theme="light"] .mainContainer .h3,
+[data-theme="light"] .mainContainer .h4,
+[data-theme="light"] .mainContainer .h5,
+[data-theme="light"] .mainContainer .name {
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer .about-text,
+[data-theme="light"] .mainContainer .timeline-text,
+[data-theme="light"] .mainContainer .service-item-text,
+[data-theme="light"] .mainContainer .project-category {
+  color: #444 !important;
+}
+
+[data-theme="light"] .mainContainer .contact-title {
+  color: #666 !important;
+}
+
+[data-theme="light"] .mainContainer .contact-link,
+[data-theme="light"] .mainContainer .contact-info time,
+[data-theme="light"] .mainContainer .contact-info address {
+  color: #222 !important;
+}
+
+[data-theme="light"] .mainContainer .separator {
+  background: #ddd !important;
+}
+
+[data-theme="light"] .mainContainer .title {
+  background: #e8e8e8 !important;
+  color: #333 !important;
+}
+
+[data-theme="light"] .mainContainer .service-item {
+  background: linear-gradient(to bottom right, #e8e8e8 0%, transparent 50%) !important;
+}
+
+[data-theme="light"] .mainContainer .service-item::before {
+  background: #f8f8f8 !important;
+}
+
+[data-theme="light"] .mainContainer .skill-progress-bg {
+  background: #ddd !important;
+}
+
+[data-theme="light"] .mainContainer .form-input {
+  border-color: #ccc !important;
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer .timeline-list span {
+  color: hsl(45, 60%, 35%) !important;
+}
+
+[data-theme="light"] .mainContainer .project-title {
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer .icon-box {
+  background: linear-gradient(to bottom right, #ccc 0%, transparent 50%) !important;
+}
+
+[data-theme="light"] .mainContainer .icon-box::before {
+  background: #efefef !important;
+}
+
+/* Experience section light theme */
+[data-theme="light"] .mainContainer .resume {
+  background: #ffffff !important;
+}
+
+[data-theme="light"] .mainContainer details > summary {
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer details > summary span {
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer .content-card {
+  background: linear-gradient(to bottom right, #ddd 0%, transparent 50%) !important;
+}
+
+[data-theme="light"] .mainContainer .content-card::before {
+  background: #f4f4f4 !important;
+}
+
+[data-theme="light"] .mainContainer .timeline-item-title {
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer .timeline-list span {
+  color: hsl(45, 60%, 30%) !important;
+}
+
+[data-theme="light"] .mainContainer .timeline-text,
+[data-theme="light"] .mainContainer .timeline-text a {
+  color: #444 !important;
+}
+
+[data-theme="light"] .mainContainer .timeline-item:not(:last-child)::before {
+  background: #ccc !important;
+}
+
+[data-theme="light"] .mainContainer data {
+  color: #555 !important;
+}
+
+[data-theme="light"] .mainContainer .resume header button {
+  color: #333 !important;
+}
+
+[data-theme="light"] .mainContainer .resume header button:hover {
+  color: hsl(45, 100%, 35%) !important;
+}
+
+[data-theme="light"] .mainContainer .skills-title {
+  color: #111 !important;
+}
+
+/* Map light theme */
+[data-theme="light"] .mainContainer .mapbox iframe {
+  filter: none !important;
+}
+
+/* Plutos logo fix for light theme - white logo on dark bg */
+[data-theme="light"] .mainContainer .clients-item:first-child img {
+  filter: invert(1) !important;
+}
+
+/* Sidebar Download Resume button light theme */
+[data-theme="light"] .mainContainer .resume-download-btn {
+  background: linear-gradient(to bottom right, #ddd 0%, transparent 50%) !important;
+  color: hsl(45, 80%, 35%) !important;
+  border: 1px solid #ccc !important;
+}
+
+[data-theme="light"] .mainContainer .resume-download-btn::before {
+  background: #f4f4f4 !important;
+}
+
+[data-theme="light"] .mainContainer .resume-download-btn:hover {
+  background: linear-gradient(to bottom right, hsl(45,100%,71%) 0%, hsla(36,100%,69%,0) 50%) !important;
+  color: #111 !important;
+}
+
+[data-theme="light"] .mainContainer .resume-download-btn:hover::before {
+  background: #fff8e1 !important;
+}
+
+/* info_more-btn light theme */
+[data-theme="light"] .mainContainer .info_more-btn {
+  background: linear-gradient(to bottom right, #ddd 0%, transparent 50%) !important;
+  color: hsl(45, 80%, 35%) !important;
+}
+
+[data-theme="light"] .mainContainer .info_more-btn::before {
+  background: #f4f4f4 !important;
+}
+
+/* ---- Theme Toggle Button ---- */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid hsl(45, 100%, 72%);
+  color: hsl(45, 100%, 72%);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 4px;
+}
+
+.theme-toggle:hover {
+  background: hsl(45, 100%, 72%);
+  color: #111;
+  transform: rotate(20deg) scale(1.1);
+  box-shadow: 0 0 12px rgba(255, 180, 0, 0.5);
+}
+
+[data-theme="light"] .theme-toggle {
+  border-color: #555;
+  color: #555;
+}
+
+[data-theme="light"] .theme-toggle:hover {
+  background: #333;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+/* Animated gradient background */
+#home::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: radial-gradient(ellipse at 20% 50%, rgba(120, 80, 255, 0.08) 0%, transparent 50%),
+              radial-gradient(ellipse at 80% 20%, rgba(255, 180, 0, 0.06) 0%, transparent 50%),
+              radial-gradient(ellipse at 60% 80%, rgba(0, 200, 255, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+  animation: bgPulse 8s ease-in-out infinite alternate;
+}
+
+@keyframes bgPulse {
+  0%   { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+
+/* Floating particles */
+.particle {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  animation: floatUp linear infinite;
+  opacity: 0;
+}
+
+@keyframes floatUp {
+  0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+  10%  { opacity: 0.6; }
+  90%  { opacity: 0.3; }
+  100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+}
+
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -71,10 +329,64 @@ body {
   width: 100%;
 }
 
+/* Scroll reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
 
 .typewriter {
   border-right: 2px solid #ffffff;
   animation: blink 0.75s step-end infinite;
+}
+
+/* Glow text effect */
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 180, 0, 0.5), 0 0 20px rgba(255, 180, 0, 0.3);
+}
+
+/* Shimmer effect */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, hsl(45,100%,72%) 0%, hsl(0,0%,100%) 50%, hsl(45,100%,72%) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
 }
 
 @keyframes blink {

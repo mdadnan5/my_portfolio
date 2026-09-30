@@ -11,15 +11,15 @@ const About = ({ about }) => {
         </header>
 
         {/* Self Intro */}
-        <section className="about-text">
+        <section className="about-text reveal">
           {about?.map((ele, idx) => <p key={idx}>{ele}</p>)}
         </section>
 
         {/* - Service */}
         <section className="service">
-          <h3 className="h3 service-title">What i'm doing</h3>
+          <h3 className="h3 service-title reveal">What i'm doing</h3>
           <ul className="service-list">
-            <li className="service-item">
+            <li className="service-item reveal" style={{ transitionDelay: '0.1s' }}>
               <div className="service-icon-box">
                 <img
                   src="./images/ui/images/icon-dev.svg"
@@ -35,7 +35,7 @@ const About = ({ about }) => {
                 </p>
               </div>
             </li>
-            <li className="service-item">
+            <li className="service-item reveal" style={{ transitionDelay: '0.2s' }}>
               <div className="service-icon-box">
                 <img
                   src="./images/ui/images/icon-app.svg"
@@ -63,7 +63,7 @@ const About = ({ about }) => {
 
         {/* - Clients */}
         <section className="clients">
-          <h3 className="h3 clients-title">Worked In</h3>
+          <h3 className="h3 clients-title reveal">Worked In</h3>
 
           <ul className="clients-list has-scrollbar">
 

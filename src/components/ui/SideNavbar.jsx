@@ -39,11 +39,12 @@ const SideNavbar = () => {
         <>
             <aside className={`sidebar ${viewMoreInfoState && "active"}`}>
                 <div className="sidebar-info">
-                    <figure className="avatar-box">
+                    <figure className="avatar-box" style={{ position: 'relative' }}>
                         <img
                             src="./images/ui/images/my-avatar.png"
                             alt="Mohammad Adnan"
                             width="80"
+                            style={{ borderRadius: '30px', boxShadow: '0 0 0 2px hsl(45,100%,72%), 0 0 20px rgba(255,180,0,0.3)' }}
                         />
                     </figure>
 

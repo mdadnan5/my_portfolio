@@ -9,7 +9,7 @@ import SideNavbar from './ui/SideNavbar';
 import Navbar from './ui/Navbar';
 import infoData from "./utils/info";
 
-const UiHome = ({ appRef }) => {
+const UiHome = ({ appRef, theme, setTheme }) => {
   const { experience, about } = useMemo(() => {
     const experience = infoData.options.filter(option => option.label === "experience")[0].data;
     const about = infoData.options.filter(option => option.label === "about")[0].value.split("<br/>");
@@ -17,6 +17,15 @@ const UiHome = ({ appRef }) => {
       experience,
       about
     }
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => entries.forEach(e => e.isIntersecting && e.target.classList.add('visible')),
+      { threshold: 0.12 }
+    );
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-scale').forEach(el => observer.observe(el));
+    return () => observer.disconnect();
   }, []);
 
   useEffect(() => {
@@ -57,7 +66,7 @@ const UiHome = ({ appRef }) => {
           <div className="main-content">
 
             {/* - #NAVBAR */}
-            <Navbar appRef={appRef} />
+            <Navbar appRef={appRef} theme={theme} setTheme={setTheme} />
 
             {/* - #ABOUT */}
             <About about={about} />

@@ -39,9 +39,9 @@ const Contact = () => {
 
         const formData = {
             from_name: fullname,
-            to_name: "Adnan",
-            reply_to: email,
-            message: `Reply To: ${email}\n${message}`
+            from_email: email,
+            subject: `New message from ${fullname}`,
+            message: message
         }
 
         console.log(formData);
